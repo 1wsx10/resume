@@ -1,0 +1,9 @@
+#latex stuff
+*aux
+*log
+*out
+*pdf
+*toc
+
+#vim swap
+.*.swp
