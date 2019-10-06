@@ -35,38 +35,6 @@
 
 \maketitle
 
-\tableofcontents
-
-\section{Introduction}
-
-Introduction.  We might cite bibliographic entry \cite{SJE} here.
-\href{https://www.archlinux.org}{archlinux site}
-
-\section{Section One}
-
-Section One.  This is the section that has an in-text equation
-\(e=mc^2\) and a centered equation or two:
-
-\begin{equation}
- \int_{-\infty}^\infty e^{-t^2}dt = \sqrt{\pi}
-\end{equation}
-
-\begin{equation*} % The star suppresses the equation numbering:
- \sum_1^\infty \frac{1}{n^2} = \frac{\pi^2}{6}
-\end{equation*}
-
-And another equation using a matrix.
-
-\begin{equation}
- \textrm{Matrix to follow\ldots }
- \Lambda =
- \begin{bmatrix}
-   3        &  \nabla \\
-   \partial &  b
- \end{bmatrix}
-\end{equation}
-
-Greek letters are easy to use:
 Computer Science graduate specializing in C++ programming.
 I'm at home using linux at the command line, so I'm not afraid to get
 my hands dirty. I'm particular about implementing things the right
@@ -75,74 +43,29 @@ overhauled. I like using C++ because it lets you get into the
 performance detailes when needed, but also gives useful abstractions
 for use most of the time.
 
-\begin{equation}
- \alpha \times \delta \rightarrow \frac{\mathbb R}{\phi}
-\end{equation}
+\tableofcontents
 
-\subsection{Section One Point One}
-
-Section One Point One.  This is the section that has the figure.  It
-might appear on the next page.  One can then reference it as Figure
-\ref{a figure} on page \pageref{a figure}.
-
-\begin{figure}
-\begin{center}
-% Leave off the file extension so that
-% the package can choose from .eps and .pdf
-%\includegraphics[width=3in]{circle}
-% Or if you want to waste your time, make a LaTeX figure:
-\begin{picture}(50,50)
-\put(25,25){\circle{50}}
-\end{picture}
-\end{center}
-\caption{This is a big circle.  \label{a figure}}
-\end{figure}
+\section{Qualifications}
 
 \subsection{Section One Point Two}
 
-Section One Point Two.  This is the section that has a bulleted list.
-You can number the list using \texttt{enumerate} instead of
-\texttt{itemize}.
 
 \begin{itemize}
  \item Item 1
  \item Item 2
 \end{itemize}
 
-You can also look up \texttt{description} if you're interested.
 
 \section{I forget which number}
 
-This is the section which has a code sample:
-
-\begin{verbatim}
-     ((lambda (x)
-       (list x (list (quote quote) x)))
-      (quote
-         (lambda (x)
-           (list x (list (quote quote) x)))))
-\end{verbatim}
 
 
-\section{Conclusion}
 
-Conclusion goes here.
 
 \appendix
 
-\section{Stuff That Doesn't Go Up There Goes Here Instead}
-
-This item goes without notice 19 years out of 20, but occaisionally
-must be surgically removed.
-
-
 \begin{thebibliography}{99}
 
-\bibitem{SJE}Sam, Jeff, Erine.  ``A \LaTeX\ Starter File.''  2003.
-
-\bibitem{CM}Burtis, B., and James A. Morrow.  ``Inverse Problems
-for Electrical Networks.''  Series on applied mathematics -- Vol.\ 13.
-World Scientific, \copyright 2000.
 
 \end{thebibliography}
 
