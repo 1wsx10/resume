@@ -86,20 +86,55 @@ for use most of the time.
 \end{itemize}
 
 
+\pagebreak
 \section{Projects}
 
 \subsection{\href{https://github.com/Hazelfire/I3DAssignment2}{3D Frogger}}
+\begin{itemize}
+	\item C++
+	\item OpenGL
+	\item Cmake
+	\item Boost test
+\end{itemize}
+This was a partner project in university where we wrote a game.
+It does not use any existing game engine, it just uses OpenGL to draw
+things.
 
 \subsection{\href{https://github.com/1wsx10/VectorThrust2}{In-Game Flight Controller}}
+\begin{itemize}
+	\item C\#
+\end{itemize}
+This program runs within the game Space Engineers. It rotates
+'nacelles' (a little jet engine on a motor) in order to control the
+aircraft. The normal flight behavior that is built into the game does
+not work with 'nacelles'.
 
 \subsection{\href{https://github.com/1wsx10/mandelbrot}{Mandelbrot Framebuffer Renderer}}
+\begin{itemize}
+	\item C
+	\item pthread
+	\item GNU Make
+	\item my framebuffer library (see below)
+\end{itemize}
+This project is multithreaded and multi process. It draws pretty
+mandelbrot fractals. You can move the view around, and zoom.
+This does not use a bignum library, so there is a limit to how far
+you can zoom (although it takes a while to zoom that deep)
 
 
-\appendix
+\subsection{\href{https://github.com/1wsx10/my_c_draw}{Direct draw to Framebuffer}}
+\begin{itemize}
+	\item C
+	\item linux framebuffer device
+	\item GNU make
+\end{itemize}
+This writes directly to the framebuffer device file under linux to
+draw to the screen. It only works if you don't have something else
+actively drawing to the screen (like an X session). I just run this
+in the virtual terminal. There is currently no screenshot
+functionality, so any screenshots are taken with a physical camera.
 
-\begin{thebibliography}{99}
 
 
-\end{thebibliography}
-
+\vspace*{\fill}
 \end{document}
